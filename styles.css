@@ -1,0 +1,97 @@
+/* making the entire page have the same width and height */
+* {
+    box-sizing:border-box;
+}
+/* styling the background of the entire page */
+html {
+    background-image:url('Images/background.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+/* styling the login field container */
+#container {
+    width:40%;
+    height:500px;
+    background-color:black;
+    position:absolute;
+    top:80px;
+    left:300px;
+    border-radius:20px;
+    box-sizing:border-box;
+}
+/* styling the icon container */
+#icon-container {
+    box-sizing:border-box;
+    background-color:gray;
+    width:100px;
+    height:100px;
+    display:flex;
+    position:absolute;
+    left:150px;
+    top:50px;
+    border-radius:50%;
+}
+/* styling the user icon */
+img {
+    width:100px;
+}
+/* styling the form-container */
+#form-container {
+    position:absolute;
+    width:100%;
+    top:200px;
+}
+/* styling the lebel */
+lebel {
+    color:gray;
+    margin-left:50px;
+    font-family:arial;
+}
+/* styling the user name field */
+input[type="text"]#user {
+    border:none;
+    background-color:black;
+    padding:10px 12px;
+    border-bottom:1px solid gray;
+    outline:none;
+    color:white;
+    font-size:15px;
+}
+/* styling the password field */
+input[type="password"]#password {
+    border:none;
+    background-color:black;
+    padding:10px 12px;
+    border-bottom:1px solid gray;
+    outline:none;
+    color:white;
+    font-size:15px;
+}
+/* styling the remember me lebel */
+#checkbox {
+    font-family:time new roman;
+    color:gray;
+}
+/* styling the remember me field */
+input[type="checkbox"] {
+    margin-left:200px;
+    outline:none;
+    cursor:pointer;
+}
+/* styling the submit button */
+input[type="button"] {
+    position:absolute;
+    left:170px;
+    border:none;
+    padding:10px 20px;
+    background-color:green;
+    color:white;
+    font-family:arial;
+    border-radius:5px;
+    cursor:pointer;
+}
+/* styling the button on hover */
+input[type="button"]:hover {
+    background-color:rgba(0,100,0,0.5);
+}
